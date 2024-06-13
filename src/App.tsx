@@ -1,6 +1,7 @@
 import { Input } from "@nextui-org/react";
 import "./App.css";
 import Redirect from "./components/redirect";
+import AddShortcut from "./components/add-shortcut";
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
         type="text"
         label="Search Google or type a URL"
       />
-      <div>
+      <div className="flex">
         <Redirect />
+        <AddShortcut />
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import { Image } from "@nextui-org/react";
-import { IconMoreVert } from "./icon-more-vert";
+import DropdownIcon from "./dropdown-icon";
 
 function Redirect() {
   return (
@@ -12,7 +12,7 @@ function Redirect() {
         />
         <p className="text-white">Youtube</p>
       </div>
-      <IconMoreVert />
+      <DropdownIcon />
     </div>
   );
 }

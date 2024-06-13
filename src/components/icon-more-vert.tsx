@@ -1,7 +1,6 @@
 import { IconSvgProps } from "./types";
 export const IconMoreVert = (props: IconSvgProps) => (
   <svg
-    className="text-white"
     xmlns="http://www.w3.org/2000/svg"
     height="24px"
     viewBox="0 -960 960 960"
